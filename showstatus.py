@@ -23,4 +23,4 @@ for status_file in files:
 if len(statuses) == 0:
     raise SystemExit
 
-print(" | ".join(statuses))
+print(" | ".join(sorted(statuses)))
